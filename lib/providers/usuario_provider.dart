@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:evidencia2/models/usuario_report_response.dart';
 
 class UsuarioProvider extends ChangeNotifier {
-  String _baseUrl = 'clinica-apirest.herokuapp.com';
+  String _baseUrl = 'clinica-api-rest.herokuapp.com';
 
   List<Usuario> listaUsuarios = [];
   List<UsuarioReport> listaUsuariosReport = [];

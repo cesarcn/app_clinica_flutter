@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class ReservarProvider extends ChangeNotifier {
-  String _baseUrl = 'clinica-apirest.herokuapp.com';
+  String _baseUrl = 'clinica-api-rest.herokuapp.com';
 
   List<Reservar> listaReservar = [];
 

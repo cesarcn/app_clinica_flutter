@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.certus.app_clinica">
+    package="com.example.app_clinica">
    <application
         android:label="app_clinica"
         android:name="${applicationName}"

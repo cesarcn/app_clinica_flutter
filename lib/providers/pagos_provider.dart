@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class PagosProvider extends ChangeNotifier {
-  String _baseUrl = 'clinica-apirest.herokuapp.com';
+  String _baseUrl = 'clinica-api-rest.herokuapp.com';
 
   List<Pago> listaPagos = [];
 
